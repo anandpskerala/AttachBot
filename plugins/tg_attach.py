@@ -16,5 +16,5 @@ async def attach(bot, msg):
   else:
     m = await bot.forward_messages(Config.CHANNEL_USERNAME, msg.chat.id, msg.reply_to_message.message_id)
     m_id = m.message_id
-    link = f"https://t.me/{Config.CHANNEL_USERNAME}/{m_id}"
+    link = "https://t.me/{}/{}".format(Config.CHANNEL_USERNAME, m_id)
     await bot.send_message(msg.chat.id, msg.text + "<a href='{}'.format(link)>' '</a>", parse_mode="html", disable_web_page_preview=False)
