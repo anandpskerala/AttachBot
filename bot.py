@@ -33,7 +33,7 @@ async def client():
     )
     return app
     
-   async def run_bot():
+ async def run_bot():
      bot = await client()
      await bot.start()
      
