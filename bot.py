@@ -33,15 +33,15 @@ async def client():
     )
     return app
     
- async def run_bot():
-     bot = await client()
-     await bot.start()
+async def run_bot():
+    bot = await client()
+    await bot.start()
      
-     await bot.idle()
+    await bot.idle()
      
-     await bot.stop()
+    await bot.stop()
      
      
-   if __name__ == "__main__":
+if __name__ == "__main__":
     loop = asyncio.get_event_loop()
     loop.run_until_complete(run_bot())
