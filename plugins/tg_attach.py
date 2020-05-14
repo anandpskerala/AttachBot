@@ -20,4 +20,4 @@ def attach(update, context):
     m_id = m.message_id
     link = "https://t.me/{}/{}".format(Config.CHANNEL_USERNAME, m_id)
     print(link)
-    context.bot.send_message(update.effective_chat.id, update.message.text + "[{}]({})".format("`.`", link), parse_mode=ParseMode.MARKDOWN)
+    context.bot.send_message(update.effective_chat.id, update.message.text + "[{}]({})".format("", link), parse_mode=ParseMode.MARKDOWN)
