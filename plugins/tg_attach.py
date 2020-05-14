@@ -2,10 +2,6 @@
 # -*- coding: utf-8 -*-
 # (c) Anandpskerala
 
-import logging
-logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-                     level=logging.INFO)
-
 
 #configs for the bot
 from config import Config
