@@ -10,6 +10,8 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 #configs for the bot
 from config import Config
 
+from telegram import ParseMode
+
 def attach(update, context):
   if update.message.reply_to_message == None:
     update.message.reply_text("Reply to a media to get an attached Media")
