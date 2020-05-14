@@ -2,11 +2,15 @@
 # -*- coding: utf-8 -*-
 # (c) Anandpskerala
 
-from pyrogram import Client, Filters
+#Logger
+import logging
+logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+                     level=logging.INFO)
 
 #Secret configs
 from config import Config
 
-@Client.on_message(Filters.command(["start"]))
-async def start(bot, msg):
-  await bot.send_message(msg.chat.id, f"Hi <a href='tg://user?id={msg.from_user.id}'>{msg.from_user.first_name}</a>. I am Attach Bot. I can attach medias to your long text.", parse_mode="html", reply_to_message_id=msg.message_id)
+from telegram import ParseMode
+
+def start(update, context):
+  context.bot.send_message(chat_id=update.effective_chat.id, text=f"Hi <a href='tg://user?id={update.from_user.id}'>{update.from_user.first_name}</a>. I am Attach Bot. I can attach medias to your long text.", parse_mode=ParseMode.HTML)
