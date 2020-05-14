@@ -16,7 +16,7 @@ def attach(update, context):
   if update.message.reply_to_message == None:
     update.message.reply_text("Reply to a media to get an attached Media")
   else:
-    m = context.bot.forward_messages("@" + Config.CHANNEL_USERNAME, update.effective_chat.id, update.reply_to_message.message_id)
+    m = context.bot.forward_message("@" + Config.CHANNEL_USERNAME, update.effective_chat.id, update.reply_to_message.message_id)
     m_id = m.message.message_id
     link = "https://t.me/{}/{}".format(Config.CHANNEL_USERNAME, m_id)
     print(link)
