@@ -1,1 +1,29 @@
-
+{
+  "name": "AttachBot",
+  "description": "Telegram's open source AttachBot. Create your fork now.",
+  "logo": "https://imgur.com/a/lcVAjHm",
+  "keywords": [
+    "telegram",
+    "open",
+    "source",
+    "attachbot"
+    ],
+    "sucess_url": "https://t.me/joinchat/AAAAAFNUwQf7MQRc3s4wRw",
+    "website": "https://github.com/Anandpskerala/AttachBot",
+    "repository": "https://github.com/Anandpskerala/AttachBot",
+    "env": {
+      "TG_BOT_TOKEN": {
+        "description": "telegrambot token",
+        "value": ""
+      },
+      "CHANNEL_USERNAME": {
+        "description": "Public channels username without'@'",
+        "value": ""
+      }
+    },
+    "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
