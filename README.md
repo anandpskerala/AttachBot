@@ -2,7 +2,8 @@
   <img src="assets/attach.jpg">
   <h1 align="center">Attach Bot</h1>
 </p>
-A bot to attach a media to a long message.
+
+A bot to attach a media to a long message. Written using python-telegram-bot wrapper for TelegramBots
 
 Inspired by <b>[SUKAttachBot](https://t.me/SUKAttachBot)</b> by <b>[SpecHide](https://t.me/SpecHide)</b>
 
