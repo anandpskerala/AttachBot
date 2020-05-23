@@ -9,6 +9,12 @@ Inspired by <b>[SUKAttachBot](https://t.me/SUKAttachBot)</b> by <b>[SpecHide](ht
 
 ## Installation
 
+Create a new bot using [@BotFather](https://t.me/BotFather). Add the bot to a public channel as admin
+
+**NOTE**: The channel must be public and when adding channel username as config  don't use '@' symbol
+
+And Click the button shown below.
+
  ### Heroku
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?)
