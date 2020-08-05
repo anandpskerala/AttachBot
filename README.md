@@ -21,8 +21,7 @@ And Click the button shown below.
 
 ## Video Tutorial
 
-[![Video tutorial](https://yt-embed.herokuapp.com/embed?v=kWN6qJdmdNs/0.jpg)](https://youtu.be/kWN6qJdmdNs)
-
+[![Video Tutorials](https://res.cloudinary.com/marcomontalbano/image/upload/v1596624722/video_to_markdown/images/youtube--kWN6qJdmdNs-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/kWN6qJdmdNs "Video Tutorials")
 
 ## Contribution
 
