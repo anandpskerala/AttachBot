@@ -19,6 +19,8 @@ And Click the button shown below.
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?)
 
+[![Video tutorial](https://img.youtube.com/vi/kWN6qJdmdNs/0.jpg)](https://youtu.be/kWN6qJdmdNs)
+
 
 ## Contribution
 
